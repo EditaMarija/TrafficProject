@@ -35,11 +35,8 @@ namespace TrafficProject
             set
             {
                 var parts = value.Split(',', '(', ')');
-                //char[] seperator = { '(' };
-                //string[] coord = value.Split(seperator);
                 TopX = Convert.ToInt32(parts[1]);
                 LeftY = Convert.ToInt32(parts[2]);
-
             }
         }
 
